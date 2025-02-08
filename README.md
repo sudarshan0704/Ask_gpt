@@ -1,4 +1,4 @@
-Sure! Here's a draft for your README file for a project using the Gemini API to create a mini Gemini using JavaScript:
+S
 
 ---
 
