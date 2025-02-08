@@ -1,9 +1,11 @@
 // Declare userInput outside of the event listener function
 let userInput = '';
+document.querySelector('.buttons').style.visibility = 'hidden';
 
 document.getElementById('userInputForm').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the default form submission
   document.getElementById('copyButton').innerText="copy";
+  document.querySelector('.buttons').style.visibility = 'visible';
   // Show content loading text
   document.getElementById('responseContainer').textContent = 'Loading...';
 
@@ -54,6 +56,7 @@ document.getElementById('userInputForm').addEventListener('submit', function(eve
 document.getElementById('clearButton').addEventListener('click', function() {
   // Clear the response container
   document.getElementById('responseContainer').textContent = '';
+  document.getElementById('userInputForm').reset();
   document.getElementById('copyButton').innerText="copy";
 });
 

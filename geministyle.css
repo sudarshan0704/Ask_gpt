@@ -9,6 +9,11 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 h1 {
@@ -17,23 +22,13 @@ h1 {
 
 form {
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    
+  
+   
+
 }
+button[type="submit"] {
+margin-top: 5px !important;
+    }
 
 label {
     display: block;
@@ -70,8 +65,14 @@ button:hover {
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+.buttons button {
+    margin: 10px;
+}
+
 /* Dark theme */
 body.dark-theme {
     background-color: #333;
