@@ -73,6 +73,6 @@ document.getElementById('themeSwitcher').addEventListener('click', function() {
     } else {
         body.classList.remove('light-theme');
         body.classList.add('dark-theme');
-        document.getElementById('themeSwitcher').innerText="dark-theme";
+        document.getElementById('themeSwitcher').innerText="light-theme";
     }
 });
