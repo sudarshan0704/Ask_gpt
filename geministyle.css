@@ -84,8 +84,8 @@ body.light-theme .container {
 
 body.light-theme input[type="text"],
 body.light-theme button {
-    background-color: #4CAF50;
-    color: white;
+   
+    color: rgb(0, 0, 0);
 }
 @media (max-width: 600px) {
     .container {
