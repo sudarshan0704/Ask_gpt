@@ -86,7 +86,7 @@ body.light-theme input[type="text"],
 body.light-theme button {
     background-color: #4CAF50;
     color: white;
-
+}
 @media (max-width: 600px) {
     .container {
         padding: 10px;
