@@ -17,6 +17,7 @@ h1 {
 
 form {
     margin-bottom: 20px;
+    gap:5px;
 }
 
 label {
@@ -71,6 +72,10 @@ body.dark-theme button {
     background-color: #555;
     color: #6cef2a;
 }
+body.light-theme input[type="text"]
+{
+    color: #000000;
+}
 
 /* Light theme */
 body.light-theme {
@@ -87,6 +92,8 @@ body.light-theme button {
    
     color: rgb(0, 0, 0);
 }
+
+
 @media (max-width: 600px) {
     .container {
         padding: 10px;
